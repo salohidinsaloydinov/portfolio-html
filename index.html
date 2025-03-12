@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap One Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">MyBrand</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#services">Xizmatlar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Aloqa</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5 mt-5">
+        <div class="container">
+            <h1>Bootstrap One Page</h1>
+            <p class="lead">Minimal va zamonaviy web sahifa</p>
+            <a href="#services" class="btn btn-light btn-lg">Xizmatlar</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Bizning Xizmatlar</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-code-slash display-4"></i>
+                    <h4>Veb Dasturlash</h4>
+                    <p>Biz zamonaviy va tezkor veb-saytlar yaratamiz.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-palette display-4"></i>
+                    <h4>Dizayn</h4>
+                    <p>Minimal va chiroyli dizayn yechimlari.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-phone display-4"></i>
+                    <h4>Mobil Ilovalar</h4>
+                    <p>iOS va Android uchun mobil ilovalar ishlab chiqamiz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/350" class="img-fluid rounded" alt="Project 1">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/350" class="img-fluid rounded" alt="Project 2">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/350" class="img-fluid rounded" alt="Project 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Biz bilan bog‘laning</h2>
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Ismingiz</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+
+<label class="form-label">Xabar</label>
+                    <textarea class="form-control" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Yuborish</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2025 MyBrand. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
